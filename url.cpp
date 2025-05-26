@@ -1,7 +1,3 @@
-//
-//Radhika Agrawal
-//CS110 - HW3 titled Deconstructing a Web Address
-
 #include <iostream>
 
 using namespace std;
@@ -42,7 +38,7 @@ int main(){
 	
 	cout << endl << "In the URL entered above, the Path is: " << path;
 	
-	//BONUS - Find and return the file name from the user-supplied URL.
+	//Find and return the file name from the user-supplied URL.
 	
 	int index5 = url.rfind("/");
 	cout << endl << "In the URL entered above, the File Name is: " << url.substr(index5 + 1);
